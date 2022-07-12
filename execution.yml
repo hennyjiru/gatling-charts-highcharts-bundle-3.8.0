@@ -1,0 +1,8 @@
+execution:
+- executor: gatling
+  scenario: sample
+
+scenarios:
+  sample:
+    script: /Users/henokjiru/Downloads/gatling-charts-highcharts-bundle-3.8.0/user-files/simulations/computerdatabase/BasicSimulation.java
+    simulation: tests.gatling.BasicSimulation
